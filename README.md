@@ -7,7 +7,7 @@ Either download the latest binary from [the releases tab](https://github.com/doa
 Use the following for installation arguments: `/SILENT /SUPPRESSMSGBOXES /ALLUSERS /NOCANCEL /NORESTART` and the following command for as a post-installation script `"C:\Program Files\NextDNS\nextdns.exe install -config {CONFIGNUM} -report-client-info -auto-activate"`, replacing `{CONFIGNUM}` with your configuration number.
 
 Some other values you might want are:
-- Icon URL: you should download the icon from their Twitter, their website, or you can embed to the one I kept here for personal usage (`https://ghcdn.rawgit.org/doamatto/nextdns-managed/v1.32.3/logo.jpg`)
+- Icon URL: you should download the icon from their Twitter, their website, or you can embed to the one I kept here for personal usage (`https://ghcdn.rawgit.org/doamatto/nextdns-managed/latest/logo.jpg`)
 - App identifier: `{E05738FA-4713-4289-A9D7-C9BAA7577046}`
 
 ## FAQ
