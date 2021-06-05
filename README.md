@@ -16,3 +16,9 @@ Some other values you might want are:
 
 **Q:** Ok, but like.. why?<br/>
 **A:** It was purely so that I could manage my devices without having to entirely replace solutions just for things to work properly. In otherwords, this was the easiest way for me to get my job done.
+
+**Q:** It looks weird when I open the installer? Why?<br/>
+**A:** This is meant to be installed via an MDM solution or via the command-line, not with the GUI. Although you 120% could install things that way, it defeats the purpose, and you might as well use the GUI at that point.
+
+**Q:** Couldn't you just use a PowerShell script instead?<br/>
+**A:** In a perfect world: yes. However, this rather overkill solution is because Meraki will let you store .EXEs on their servers instead of having to link to binaries from other places. This makes it easier for me to automate, as well as makes less servers to worry about in the unforeseen event of a server outage. 
